@@ -171,11 +171,11 @@ break
 // しろとくろの合計が8*8=64の場合は処理終了
 if (white_cnt + black_cnt == 64 || white_cnt == 0 || black_cnt == 0){
 if( white_cnt == black_cnt) {
-alert("勝負は引分です。")
+alert("ひきわけです。")
 } else if (white_cnt > black_cnt){
-alert("勝負は、くろ：" + black_cnt + "対、しろ：" + white_cnt + "で、しろの勝ちです。")
+alert("くろ：" + black_cnt + "対、しろ：" + white_cnt + "で、しろのかちです。")
 } else {
-alert("勝負は、くろ："+ black_cnt + "対、しろ："+ white_cnt + "で、くろの勝ちです。")
+alert("くろ："+ black_cnt + "対、しろ："+ white_cnt + "で、くろのかちです。")
 }
 
 } else {
