@@ -173,9 +173,9 @@ if (white_cnt + black_cnt == 64 || white_cnt == 0 || black_cnt == 0){
 if( white_cnt == black_cnt) {
 alert("ひきわけです。")
 } else if (white_cnt > black_cnt){
-alert("くろ：" + black_cnt + "対、しろ：" + white_cnt + "で、しろのかちです。")
+alert("くろ：" + black_cnt + "、しろ：" + white_cnt + "で、しろのかちです。")
 } else {
-alert("くろ："+ black_cnt + "対、しろ："+ white_cnt + "で、くろのかちです。")
+alert("くろ："+ black_cnt + "、しろ："+ white_cnt + "で、くろのかちです。")
 }
 
 } else {
@@ -183,11 +183,11 @@ alert("くろ："+ black_cnt + "対、しろ："+ white_cnt + "で、くろの�
 if(check_reverse_cnt == 0){
 switch( turn ) {
 case -1:
-alert("しろのおけるばしょがありません。続けてくろのばんとなります。")
+alert("しろのおけるばしょがありません。つづけてくろのばんとなります。")
 turn = turn * -1
 break;
 case 1:
-alert("くろのおけるばしょがありません。続けてしろのばんとなります。")
+alert("くろのおけるばしょがありません。つづけてしろのばんとなります。")
 turn = turn * -1
 break;
 }
